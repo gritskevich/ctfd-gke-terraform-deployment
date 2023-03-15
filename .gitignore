@@ -1,0 +1,12 @@
+# Idea
+/.idea
+
+# Terraform
+/terraform.*
+.terraform
+/.terraform.*
+
+# Variables
+/terraform.tfvars
+/fullchain.pem
+/privkey.pem
