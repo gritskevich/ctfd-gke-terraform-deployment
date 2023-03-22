@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 5e0e146e2242cb3e4b836184b688a4e8c0e2cc32 John <john@bs-corp.com> 1567674615 +0200	commit (initial): Initial commit for the new HR database access
+5e0e146e2242cb3e4b836184b688a4e8c0e2cc32 1572c85d624a10be0aa7b995289359cc4c0d53da John <john@bs-corp.com> 1568279406 +0200	commit: secure auth with md5
+1572c85d624a10be0aa7b995289359cc4c0d53da a8673b295eca6a4fa820706d5f809f1a8b49fcba John <john@bs-corp.com> 1569148712 +0200	commit: changed password
+a8673b295eca6a4fa820706d5f809f1a8b49fcba 550880c40814a9d0c39ad3485f7620b1dbce0de8 John <john@bs-corp.com> 1569244207 +0200	commit: renamed app name
+550880c40814a9d0c39ad3485f7620b1dbce0de8 c0b4661c888bd1ca0f12a3c080e4d2597382277b John <john@bs-corp.com> 1569607805 +0200	commit: blue team want sha256!!!!!!!!!

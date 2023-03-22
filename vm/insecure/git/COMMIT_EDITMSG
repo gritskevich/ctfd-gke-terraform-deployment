@@ -1,0 +1,14 @@
+blue team want sha256!!!!!!!!!
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Author:    John <john@bs-corp.com>
+#
+# On branch master
+# Changes to be committed:
+#	modified:   config.php
+#	modified:   index.php
+#
+# Untracked files:
+#	._nginx.server-level.inc
+#

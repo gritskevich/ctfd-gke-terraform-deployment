@@ -19,6 +19,26 @@ resource "kubernetes_ingress_v1" "ctfd" {
         }
       }
     }
+
+     rule {
+       host = "insecure.hackingame.com"
+
+      http {
+        path {
+          backend {
+            service {
+              name = "insecure"
+              port {
+                number = 8080
+              }
+            }
+          }
+
+          path = "/*"
+        }
+      }
+    }
+
   }
 }
 

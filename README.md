@@ -32,7 +32,13 @@ gcloud container clusters get-credentials <CLUSTER_NAME> --zone <YOUR_ZONE>
 Create a static external IP address in Google Cloud Platform. In this specific command:
 ```
 gcloud compute addresses create ctfd --global
+gcloud compute addresses create ssh --region europe-west1
 ```
+
+gcloud compute addresses describe ssh --global
+
+ssh_password = "<ROOT_PASSWORD>"
+ssh_ip = "<EXERCISES_IP>"
 
 Create a Kubernetes secret to store the SSL private key and certificate:
 ```
@@ -60,6 +66,7 @@ gcloud compute addresses describe ctfd --global
 You can also configure DNS name with this IP address.
 
 ## Cleaning Up
+
 To destroy the resources created by Terraform, run:
 
 ```
